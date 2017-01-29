@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Florida Travel</title>
+        <meta charset="utf-8">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <!-- Awesome icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-responsive.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+
+    </head>
+    <body class="appear-animate">
+
+        <!-- Página cargando -->
+        <div class="page-loader">
+            <div class="loader">Cargando...</div>
+        </div>
+        <!-- Fin Página cargando -->
+
+        <!-- Página general-->
+        <div class="page" id="top">
+
+            <!-- Panel de navegación -->
+            <nav class="main-nav js-stick">
+                <div class="full-wrapper relative clearfix">
+                    <!-- Logo FloridaTravel -->
+                    <div class="nav-logo-wrap local-scroll">
+                        <a href="#top" class="logo">
+                            <img src="img/logo.png" alt="" />
+                        </a>
+                    </div>
+                    <!-- Fin Logo FloridaTravel -->
+                    <div class="mobile-nav">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <!-- Menú de navegación-->
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist scroll-nav local-scroll">
+                            <li class="active"><a href="#inicio">Destinos</a></li>
+                            <li><a href="inspiraciones.html">Inspiraciones</a></li>
+                            <li><a href="#ofertas">Mejores ofertas</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Fin menú de navegación -->
+
+            <!-- Empieza tu viaje -->
+            <section class="page-section pb-0 bg-dark" data-background="img/image3.jpg" id="inicio">
+                            <div class="relative">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+                                            <div class="align-center">
+                                              <!-- Título -->
+                                                <h1 class="hs-line-8 no-transp font-alt mb-40 mb-xs-20">Florida Travel te ofrece los mejores destinos para tu viaje</h1>
+                                                <!-- Subtítulo -->
+                                                <h2 class="hs-line-15 font-alt">Destinos</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Busca tu viaje -->
+                                <div class="relative bg-dark-alfa-50 mt-60 pt-80 pt-xs-30 pb-70 pb-xs-20">
+                                    <div class="container centrado">
+                                        <div class="row">
+                                            <div class="col-sm-10 col-sm-offset-1">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-md-3 mb-10">
+                                                          <input list="continente" type="text" name="continente" class="input-md round form-control" placeholder="Continente *" pattern=".{3,100}" required="">
+                                                          <datalist id="continente">
+                                                            <option value="Europa"></option>
+                                                            <option value="Asia"></option>
+                                                            <option value="América"></option>
+                                                            <option value="África"></option>
+                                                            <option value="Oceanía"></option>
+                                                          </datalist>
+                                                        </div>
+
+                                                        <div class="col-sm-6 col-md-3 mb-10">
+                                                          <input list="pais" type="text" name="pais" class="input-md round form-control" placeholder="País *" pattern=".{5,100}" required="">
+                                                          <datalist id="pais">
+                                                            <option value="Alemania"></option>
+                                                            <option value="Reino Unido"></option>
+                                                            <option value="Chile"></option>
+                                                            <option value="España"></option>
+                                                            <option value="Japón"></option>
+                                                          </datalist>
+                                                        </div>
+
+                                                        <div class="col-sm-6 col-md-3 mb-10">
+                                                            <a href="#news"><button class="btn btn-mod btn-border-w btn-medium btn-round local-scroll">Empieza tu viaje</button></a>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fin busca tu viaje -->
+                                </div>
+                        </section>
+            <!-- Fin empieza tu viaje -->
+
+
+                        <!-- Resultados de la búsqueda -->
+                        <!-- (La ide sería tener sólo un resultado en HTML y con un PHP dependiendo de la búsqueda
+                            te sacaría todas las opciones con un bucle de repetición) -->
+                        <section class="page-section" id="news">
+                            <div class="container relative">
+                                <!-- Título -->
+                                <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
+                                    Mejores resultados de tu búsqueda
+                                    <a href="blog-classic-sidebar-right.html" class="section-more right">Más resultados <i class="fa fa-angle-right"></i></a>
+                                </h2>
+                                <div class="row multi-columns-row">
+
+                                    <!-- Post del resultado-->
+                                    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
+                                        <div class="post-prev-img">
+                                            <a href="blog-single-sidebar-right.html"><img src="img/londres.png" alt="" /></a>
+                                        </div>
+                                        <div class="post-prev-title font-alt">
+                                            <a href="">Londres</a>
+                                        </div>
+                                        <!-- Servicios -->
+                                        <div class="post-prev-info font-alt">
+                                          <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                          <i class="fa fa-coffee" aria-hidden="true"></i>
+                                          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                          <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                          <i class="fa fa-h-square" aria-hidden="true"></i>
+                                        </div>
+                                        <!-- Descripción de la ciudad -->
+                                        <div class="post-prev-text">
+                                          La mezcla de antiguo con lo más moderno, el bullicio de sus calles y la paz de sus parques, junto a la asombrosa diversidad cultural que allí se respira, hacen de Londres una ciudad única e el mundo.
+                                        </div>
+                                    </div>
+                                    <!-- Fin del post resultado  -->
+                                    <!-- Post del resultado-->
+                                    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
+                                        <div class="post-prev-img">
+                                            <a href="blog-single-sidebar-right.html"><img src="img/escocia.png" alt="" /></a>
+                                        </div>
+                                        <div class="post-prev-title font-alt">
+                                            <a href="">Escocia</a>
+                                        </div>
+                                        <div class="post-prev-info font-alt">
+                                          <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                          <i class="fa fa-coffee" aria-hidden="true"></i>
+                                          <i class="fa fa-h-square" aria-hidden="true"></i>
+                                          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="post-prev-text">
+                                            La Escocia, todo sobre nuestro arte, la música tradicional y contemporánea y la literatura escocesa.  Este país no deja de sorprender con su carácter único y espectacular.
+                                        </div>
+                                    </div>
+                                    <!-- Fin post del resultado -->
+                                    <!-- Post del resultado -->
+                                    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="2s">
+                                        <div class="post-prev-img">
+                                            <a href="blog-single-sidebar-right.html"><img src="img/irlandaNorte.png" alt="" /></a>
+                                        </div>
+                                        <div class="post-prev-title font-alt">
+                                            <a href="">Irlanda del Norte</a>
+                                        </div>
+                                        <div class="post-prev-info font-alt">
+                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                            <i class="fa fa-coffee" aria-hidden="true"></i>
+                                            <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                            <i class="fa fa-h-square" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="post-prev-text">
+                                            Irlanda del Norte te sorprenderá por sus ciudades bulliciosas, la vida nocturna, los festivales, las actividades al aire libre, una gastronomía sensacional y espacios naturales vírgenes.
+                                        </div>
+                                    </div>
+                                    <!-- Fin post del resultado -->
+                                    <!-- Post del resultado -->
+                                    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
+                                        <div class="post-prev-img">
+                                            <a href="blog-single-sidebar-right.html"><img src="img/edimburgo.png" alt="" /></a>
+                                        </div>
+                                        <div class="post-prev-title font-alt">
+                                            <a href="">Edimburgo</a>
+                                        </div>
+                                        <div class="post-prev-info font-alt">
+                                          <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                          <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                          <i class="fa fa-h-square" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="post-prev-text">
+                                            A pesar de que Edimburgo es la segunda ciudad más popular del Reino Unido no podemos dejarlo fuera de esta lista. Desde su encantador casco antiguo hasta los festivales más estridentes y sus sorprendentes paisajes de la costa y sus colinas, Edimburgo es un destino excelente para todo el mundo.                                        </div>
+                                        </div>
+                                    <!-- Fin post del resultado -->
+                                    <!-- Post del resultado -->
+                                    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
+                                        <div class="post-prev-img">
+                                            <a href="blog-single-sidebar-right.html"><img src="img/polperro.png" alt="" /></a>
+                                        </div>
+                                        <div class="post-prev-title font-alt">
+                                            <a href="">Polperro, Inglaterra</a>
+                                        </div>
+                                        <div class="post-prev-info font-alt">
+                                          <i class="fa fa-coffee" aria-hidden="true"></i>
+                                          <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="post-prev-text">
+                                            Este tradicional pueblo de pescadores se sitúa sobre una playa escarpada. Su senderos son perfectos para redescubrir las playas y las calas. En el puerto puedes visitar las galerías de arte y los cafés que definen el carácter de la ciudad.
+                                        </div>
+                                    </div>
+                                    <!-- Fin post del resultado -->
+                                    <!-- Post del resultado -->
+                                    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
+
+                                        <div class="post-prev-img">
+                                            <a href="blog-single-sidebar-right.html"><img src="img/gales.png" alt="" /></a>
+                                        </div>
+
+                                        <div class="post-prev-title font-alt">
+                                            <a href="">Gales</a>
+                                        </div>
+
+                                        <div class="post-prev-info font-alt">
+                                          <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                          <i class="fa fa-coffee" aria-hidden="true"></i>
+                                          <i class="fa fa-h-square" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="post-prev-text">
+                                            Gales, este maravilloso sitio es sólo el principio de tu visita. ¡Contempla la puesta de sol y su castillo, el muelle y la muralla medieval que rodea el pueblo. ¿Qué más puedes pedir?
+                                        </div>
+                                    </div>
+                                    <!-- Fin post del resultado -->
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Fin Resultados de la búsqueda -->
+
+
+            <!-- Contacto rápido -->
+            <section class="small-section bg-dark">
+                <div class="container relative">
+                    <div class="align-center">
+                        <h3 class="banner-heading font-alt">Tienes alguna duda?</h3>
+                        <div class="local-scroll">
+                            <a href="#contacto" class="btn btn-mod btn-w btn-medium btn-round">Contacta</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Fin contacto rápido -->
+
+            <!-- Servicios -->
+            <section class="page-section" id="servicios">
+                <div class="container relative">
+                    <!-- Título -->
+                    <h2 class="section-title font-alt mb-70 mb-sm-40">
+                        Servicios
+                    </h2>
+
+                    <!-- Título servicios -->
+                    <ul class="nav nav-tabs tpl-alt-tabs font-alt pt-30 pt-sm-0 pb-30 pb-sm-0">
+                        <li class="active">
+                            <a href="#service-branding" data-toggle="tab">
+                                <div class="alt-tabs-icon">
+                                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                </div>
+                                Gastronomía
+                            </a>
+                        </li>
+                        <li>
+                          <a href="#service-web-design" data-toggle="tab">
+                              <div class="alt-tabs-icon">
+                                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                              </div>
+                              Cultura
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#service-graphic" data-toggle="tab">
+
+                              <div class="alt-tabs-icon">
+                                  <i class="fa fa-coffee" aria-hidden="true"></i>
+                              </div>
+                              Relax
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#service-development" data-toggle="tab">
+                              <div class="alt-tabs-icon">
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                              </div>
+                              Adaptabilidad
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#service-photography" data-toggle="tab">
+                              <div class="alt-tabs-icon">
+                                <i class="fa fa-h-square" aria-hidden="true"></i>
+                              </div>
+                              Hoteles
+                          </a>
+                        </li>
+                    </ul>
+                    <!-- Fin título servicios -->
+
+                    <!-- Descripción servicios -->
+                    <div class="tab-content tpl-tabs-cont">
+                        <!-- Gastronomía -->
+                        <div class="tab-pane fade in active" id="service-branding">
+                            <div class="section-text">
+                                <div class="row">
+                                    <div class="col-md-4 mb-md-40 mb-xs-30">
+                                        <blockquote class="mb-0">
+                                            <p>
+                                                Si ves este emoticono te garantizamos los mejores sitios para ir desde desayunar a cenar, ñam ñam.
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                        En florida travel estamos asociados con la compañia tripadvisor para que nos recomiende los mejores restaurantes de la zona con descuentos exclusivos para nuestros clientes.
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      <img src="img/food.jpg" alt="Gastronomía">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cultura -->
+                        <div class="tab-pane fade" id="service-web-design">
+                            <div class="section-text">
+                                <div class="row">
+                                    <div class="col-md-4 mb-md-40 mb-xs-30">
+                                        <blockquote class="mb-0">
+                                            <p>
+                                                Si ves este emoticono te garantizamos los mejores sitios para enriquecer nuestra mente.
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      En florida travel estamos asociados con la compañia tripadvisor para que nos recomiende los mejores locales de la zona dónde puedas ver una película, ir al teatro, biblioteca...
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      <img src="img/cultura.jpg" alt="Cultura">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Relax -->
+                        <div class="tab-pane fade" id="service-graphic">
+                            <div class="section-text">
+                                <div class="row">
+                                    <div class="col-md-4 mb-md-40 mb-xs-30">
+                                        <blockquote class="mb-0">
+                                            <p>
+                                                Si ves este emoticono te garantizamos los mejores sitios para ir a descansar, Zzz Zzz.
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      En florida travel estamos asociados con la compañia tripadvisor para que nos recomiende los mejores locales de la zona para ir a descansar, contamos con descuentos exclusivos para nuestros clientes.
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      <img src="img/relax.jpg" alt="Relax">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Adaptabilidad -->
+                        <div class="tab-pane fade" id="service-development">
+                            <div class="section-text">
+                                <div class="row">
+                                    <div class="col-md-4 mb-md-40 mb-xs-30">
+                                        <blockquote class="mb-0">
+                                            <p>
+                                                Si ves este emoticono te garantizamos asistencia para discapacidades físicas o motoras, sensoriales, cognitiva-intelectual y psicosociales.
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      En florida travel estamos asociados con varias empresas para poder atender a personas con adaptabilidad reducida.
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                        <img src="img/adaptabilidad.jpg" alt="Adaptabilidad">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hoteles -->
+                        <div class="tab-pane fade" id="service-photography">
+                            <div class="section-text">
+                                <div class="row">
+                                    <div class="col-md-4 mb-md-40 mb-xs-30">
+                                        <blockquote class="mb-0">
+                                            <p>
+                                              Si ves este emoticono te garantizamos los mejores hoteles.
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      En florida travel estamos asociados con la compañia tripadvisor para que nos recomiende los mejores hoteles, contamos con descuentos exclusivos para nuestros clientes.
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
+                                      <img src="img/hotel.jpg" alt="Hotel">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin descripción servicios -->
+                </div>
+            </section>
+            <!-- Fin servicios -->
+
+
+            <!-- Viajes exclusivos -->
+            <section class="page-section pt-0 pb-0 banner-section <bg-dark></bg-dark>" data-background="img/image1.png">
+                <div class="container relative">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="mt-140 mt-lg-80 mb-140 mb-lg-80">
+                                <div class="banner-content">
+                                    <h3 class="banner-heading font-alt">Estás buscando un viaje exclusivo?</h3>
+                                    <div class="banner-decription">
+                                        En Florida Travel también disponemos de viajes premium a partir de los 5999€ con todos los gastos incluidos, ciudades increíbles, experiencias únicas.
+                                    </div>
+                                    <div class="local-scroll">
+                                        <a href="#contacto" class="btn btn-mod btn-w btn-medium btn-round">Habla con nostros</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Fin viajes exclusivos -->
+
+            <!-- Jumbotron -->
+            <h2 class="jumbotron font-alt mb-70 mb-sm-40">
+                Ofertas en promoción
+            </h2>
+            <!-- Fin Jumbotron -->
+            <!-- Ofertas -->
+            <section class="page-section pt-0 pb-0" id="ofertas">
+                <div class="relative">
+                    <!-- Lista de las ofertas -->
+                    <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white hide-titles" id="work-grid">
+                        <!-- Oferta 1 -->
+                        <li class="work-item mix photography">
+                          <div class="work-img">
+                              <img src="img/sanFrancisco.png" alt="Work" />
+                          </div>
+                          <div class="work-intro">
+                              <h3 class="work-title">San Francisco</h3>
+                              <div class="work-descr">
+                                  <strike>721€</strike> - 699€
+                              </div>
+                          </div>
+                        </li>
+                        <!-- Fin oferta 1 -->
+                        <!-- Oferta 2 -->
+                        <li class="work-item mix photography">
+                          <div class="work-img">
+                              <img src="img/colorado.png" alt="Work" />
+                          </div>
+                          <div class="work-intro">
+                              <h3 class="work-title">Colorado</h3>
+                              <div class="work-descr">
+                                  <strike>430€</strike> - 399€
+                              </div>
+                          </div>
+                        </li>
+                        <!-- Fin oferta 2-->
+                        <!-- Oferta 3 -->
+                        <li class="work-item mix photography">
+                          <div class="work-img">
+                              <img src="img/hawaii.png" alt="Work" />
+                          </div>
+                          <div class="work-intro">
+                              <h3 class="work-title">Hawaii</h3>
+                              <div class="work-descr">
+                                  <strike>1099€</strike> - 899€
+                              </div>
+                          </div>
+                        </li>
+                        <!-- Fin oferta 3-->
+                        <!-- Oferta 4 -->
+                        <li class="work-item mix photography">
+                          <div class="work-img">
+                              <img src="img/hollywood.png" alt="Work" />
+                          </div>
+                          <div class="work-intro">
+                              <h3 class="work-title">Hollywood</h3>
+                              <div class="work-descr">
+                                  <strike>700€</strike> - 599€
+                              </div>
+                          </div>
+                        </li>
+                        <!-- Fin oferta 4 -->
+                        <!-- Oferta 5 -->
+                        <li class="work-item mix photography">
+                          <div class="work-img">
+                              <img src="img/newYork.png" alt="Work" />
+                          </div>
+                          <div class="work-intro">
+                              <h3 class="work-title">New York</h3>
+                              <div class="work-descr">
+                                  <strike>1399€</strike> - 900€
+                              </div>
+                          </div>
+                        </li>
+                        <!-- Fin oferta 5 -->
+                        <!-- Oferta 6 -->
+                        <li class="work-item mix photography">
+                          <div class="work-img">
+                              <img src="img/washington.png" alt="Work" />
+                          </div>
+                          <div class="work-intro">
+                              <h3 class="work-title">Washington</h3>
+                              <div class="work-descr">
+                                  <strike>799€</strike> - 599€
+                              </div>
+                          </div>
+                        </li>
+                        <!-- Fin oferta -->
+                    </ul>
+                    <!-- Fin lista de las ofertas  -->
+                </div>
+            </section>
+            <!-- Fin ofertas -->
+
+            <!-- Suscríbete -->
+            <section class="small-section bg-gray-lighter">
+                <div class="container relative">
+                    <form class="form align-center" id="mailchimp">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="newsletter-label font-alt">
+                                    Apúntate y estarás informado de los mejores viajes.
+                                </div>
+                                <div class="mb-20">
+                                    <input placeholder="Introduce tu correo" class="newsletter-field form-control input-md round mb-xs-10" type="email" pattern=".{5,100}" required/>
+                                    <button type="submit" class="btn btn-mod btn-medium btn-round mb-xs-10">
+                                        Suscríbete
+                                    </button>
+                                </div>
+                                <div class="form-tip">
+                                    <i class="fa fa-info-circle"></i> No enviamos spam
+                                </div>
+                                <div id="subscribe-result"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- Fin suscríbete -->
+
+            <!-- Contacto -->
+            <section class="page-section" id="contacto">
+                <div class="container relative">
+                  <!-- Título -->
+                    <h2 class="section-title font-alt mb-70 mb-sm-40">
+                        Contacto
+                    </h2>
+                    <div class="row mb-60 mb-xs-40">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="row">
+                                <!-- Teléfono -->
+                                <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Llámanos
+                                        </div>
+                                        <div class="ci-text">
+                                            +34 567 76 67 67
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Dirección -->
+                                <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Dirección
+                                        </div>
+                                        <div class="ci-text">
+                                            C/ Rei en Jaume I, CATARROJA (Valencia)
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Correo -->
+                                <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Correo
+                                        </div>
+                                        <div class="ci-text">
+                                            <a href="#">contacto@floridatravel.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulario de contacto -->
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <form class="form contact-form" id="contact_form">
+                                <div class="clearfix">
+                                    <div class="cf-left-col">
+                                        <!-- Nombre -->
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="name" class="input-md round form-control" placeholder="Nombre" pattern=".{3,100}" required>
+                                        </div>
+                                        <!-- Correo -->
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="input-md round form-control" placeholder="Correo" pattern=".{5,100}" required>
+                                        </div>
+                                    </div>
+                                    <div class="cf-right-col">
+                                        <!-- Mensaje -->
+                                        <div class="form-group">
+                                            <textarea name="message" id="message" class="input-md round form-control" style="height: 84px;" placeholder="Mensaje"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="cf-left-col">
+                                        <!-- Campos requereidos -->
+                                        <div class="form-tip pt-20">
+                                            <i class="fa fa-info-circle"></i> Todos los campos son requeridos
+                                        </div>
+                                    </div>
+                                    <div class="cf-right-col">
+                                        <!-- Boton enviar -->
+                                        <div class="align-right pt-10">
+                                            <button class="submit_btn btn btn-mod btn-medium btn-round" id="submit_btn">Enviar mensaje</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Fin formulario contacto-->
+
+                </div>
+            </section>
+            <!-- Fin contacto -->
+
+
+            <!-- Google Maps -->
+            <div class="google-map">
+              <!-- Dirección -->
+                <div data-address="39.403752, -0.412234" id="map-canvas"></div>
+                <div class="map-section">
+                    <div class="map-toggle">
+                        <div class="mt-icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="mt-text font-alt">
+                            <div class="mt-open">Dónde estamos? <i class="fa fa-angle-down"></i></div>
+                            <div class="mt-close">Cerrar el mapa <i class="fa fa-angle-up"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Google Maps -->
+
+
+            <!-- Footer -->
+            <footer class="page-section bg-gray-lighter footer pb-60">
+                <div class="container">
+
+                    <!-- Footer Logo -->
+                    <div class="local-scroll mb-30 wow fadeInUp" data-wow-duration="1.2s">
+                        <a href="#top"><img src="img/logo.png" width="78" height="36" alt="" /></a>
+                    </div>
+
+                    <!-- Redes sociales -->
+                    <div class="footer-social-links mb-110 mb-xs-60">
+                        <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="footer-social-links mb-110 mb-xs-60">
+                      <a href="#" title="España"><i>ES</i></a>
+                      <a href="#" title="English"><i>EN</i></a>
+                    </div>
+                    <div class="footer-text">
+                        <!-- Copyright -->
+                        <div class="footer-copy font-alt">
+                            <span>&copy; Florida Travel 2017</span>.
+                        </div>
+                        <div class="footer-made">
+                            Echo por y para viajeros.
+                        </div>
+                    </div>
+                 </div>
+            </footer>
+            <!-- Fin Footer -->
+        </div>
+        <!-- End Página general -->
+
+
+        <!-- JS -->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+        <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+        <script type="text/javascript" src="js/gmap3.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <script type="text/javascript" src="js/contact-form.js"></script>
+        <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
+
+    </body>
+</html>
